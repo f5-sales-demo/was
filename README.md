@@ -6,18 +6,10 @@
 
 F5 XC web application scanning
 
+
 ## Documentation
 
 Full documentation is available at **[https://f5xc-salesdemos.github.io/was/](https://f5xc-salesdemos.github.io/was/)**.
-
-## Getting Started
-
-```bash
-git clone https://github.com/f5xc-salesdemos/was.git
-```
-
-See the [documentation](https://f5xc-salesdemos.github.io/was/) for detailed setup
-and usage guides.
 
 ## Contributing
 
