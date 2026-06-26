@@ -1,7 +1,7 @@
 {
   "repository": {
     "description": "F5 XC web application scanning",
-    "homepage": "https://f5xc-salesdemos.github.io/was/"
+    "homepage": "https://f5-sales-demo.github.io/was/"
   },
   "topics": ["f5xc"]
 }
