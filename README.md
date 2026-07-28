@@ -20,7 +20,6 @@
 
 F5 XC web application scanning
 
-
 ## Documentation
 
 Full documentation is available at **[https://f5-sales-demo.github.io/was/](https://f5-sales-demo.github.io/was/)**.
