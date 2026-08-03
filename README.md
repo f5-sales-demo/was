@@ -1,3 +1,5 @@
+# Web App Scanning
+
 🌐 English |
 [日本語](https://f5-sales-demo.github.io/was/ja/) |
 [한국어](https://f5-sales-demo.github.io/was/ko/) |
@@ -11,8 +13,6 @@
 [العربية](https://f5-sales-demo.github.io/was/ar/) |
 [हिन्दी](https://f5-sales-demo.github.io/was/hi/) |
 [ไทย](https://f5-sales-demo.github.io/was/th/)
-
-# Web App Scanning
 
 [![GitHub Pages Deploy](https://github.com/f5-sales-demo/was/actions/workflows/github-pages-deploy.yml/badge.svg)](https://github.com/f5-sales-demo/was/actions/workflows/github-pages-deploy.yml)
 [![Repository Settings](https://github.com/f5-sales-demo/was/actions/workflows/enforce-repo-settings.yml/badge.svg)](https://github.com/f5-sales-demo/was/actions/workflows/enforce-repo-settings.yml)
