@@ -1,11 +1,50 @@
 ---
-title: Web App Scanning
-description: Web application scanning and vulnerability assessment for F5 Distributed Cloud.
-hero:
-  tagline: Web application scanning and vulnerability assessment.
-  image:
-    html: '<img src="/was/images/hero.svg" alt="F5 XC Web App Scanning" />'
-sidebar:
-  hidden: true
-  order: 0
+title: F5 Distributed Cloud Web Application Scanning
+description: Dynamic application security testing (DAST) and vulnerability scanning for web applications and APIs.
 ---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+**F5 Distributed Cloud Web Application Scanning** (WAS) provides automated dynamic application security testing (DAST) across public web applications, APIs, and microservices. WAS discovers exposed attack surfaces, audits for software vulnerabilities, and validates security posture compliance.
+
+## Scanning Lifecycle
+
+```text
++-------------------------------------------------------------------------+
+|                        WAS Automated Scan Workflow                      |
+|                                                                         |
+|  +--------------------+     +-------------------+     +--------------+  |
+|  | Asset Discovery    | --> | Crawl & Map Target| --> | Active DAST  |  |
+|  | & DNS Verification |     | Endpoints & Forms |     | Security Test|  |
+|  +--------------------+     +-------------------+     +-------+------+  |
+|                                                               |         |
+|                                                               v         |
+|  +--------------------+     +-------------------+     +--------------+  |
+|  | Remediation Export | <-- | Vulnerability Risk| <-- | Response &   |  |
+|  | (Jira, PDF, JSON)  |     | Classification    |     | Exploit Audit|  |
+|  +--------------------+     +-------------------+     +--------------+  |
++-------------------------------------------------------------------------+
+```
+
+## Core Capabilities
+
+<CardGrid>
+  <Card title="OWASP Top 10 Coverage" icon="seti:shield">
+    Audits for injection flaws, broken access controls, security misconfigurations, and cryptographic failures.
+  </Card>
+  <Card title="Authenticated Scanning" icon="seti:lock">
+    Supports session tokens, OAuth2, and form-based login automation for deep application coverage.
+  </Card>
+  <Card title="Scheduled Assessments" icon="document">
+    Automated recurring scans with historical posture drift and remediation tracking.
+  </Card>
+</CardGrid>
+
+## Risk Classification Levels
+
+| Severity | Description | Typical Findings |
+| :--- | :--- | :--- |
+| **Critical** | Immediate remote exploitability or unauthorized data exposure. | Remote code execution (RCE), SQL injection, unauthenticated admin bypass. |
+| **High** | Significant security risk requiring urgent remediation. | Cross-site scripting (XSS), insecure deserialization, broken object level authorization. |
+| **Medium** | Defense-in-depth weaknesses or partial information disclosure. | Weak cipher suites, missing security headers (HSTS, CSP), verbose error traces. |
+| **Low** | Informational findings and best practice deviations. | Server banner disclosure, directory indexing enabled. |
